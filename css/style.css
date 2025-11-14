@@ -1,0 +1,44 @@
+/* ===============================
+   CSS personalizado do projeto 
+   Cidade Estrutural
+   =============================== */
+
+/* Reset básico */
+body {
+  font-family: "Helvetica", Arial, sans-serif;
+  background-color: #f8f9fa;
+  padding-top: 70px; /* compensar navbar fixa */
+}
+
+/* Hero Section */
+.hero-section {
+  height: 60vh;
+  background: url('../img/capa.jpg') center/cover no-repeat;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.45);
+}
+.hero-section h1,
+.hero-section p {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Seções */
+section h2 {
+  font-weight: 700;
+  color: #222;
+}
+
+/* Galeria */
+#galeria img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#galeria img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}

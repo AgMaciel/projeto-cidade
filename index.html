@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto Cidade Estrutural</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Cidade Estrutural</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#entrevistas">Entrevistas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section d-flex align-items-center justify-content-center">
+    <div class="text-center text-white">
+      <h1 class="display-4 fw-bold">Retratos da Comunidade</h1>
+      <p class="lead">Um olhar humano sobre a Cidade Estrutural</p>
+    </div>
+  </header>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Sobre o Projeto</h2>
+      <p class="text-center mb-5">Uma análise sociocultural sobre a vida na Cidade Estrutural, às margens da via recentemente reformada, onde milhões foram investidos sem que a comunidade recebesse sequer 0,1% desse valor.</p>
+    </div>
+  </section>
+
+  <!-- Entrevistas -->
+  <section id="entrevistas" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Entrevistas em Áudio</h2>
+      <p class="text-center mb-4">Aqui você poderá inserir os áudios gravados com as professoras da educação infantil.</p>
+
+      <!-- Player 1 -->
+      <div class="mb-4">
+        <h5>Professora 1</h5>
+        <audio controls>
+          <source src="audio/professora1.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+
+      <!-- Player 2 -->
+      <div class="mb-4">
+        <h5>Professora 2</h5>
+        <audio controls>
+          <source src="audio/professora2.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section id="galeria" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Galeria de Imagens</h2>
+      <div class="row g-4">
+        <div class="col-md-4"><img src="img/estrutural-4.jpg" class="img-fluid rounded shadow-sm" alt="Baiiro Sta Luzia" /></div>
+        <div class="col-md-4"><img src="img/estrutural-2.jpg" class="img-fluid rounded shadow-sm" alt="estrututal" /></div>
+        <div class="col-md-4"><img src="img/estrutural-1.jpg" class="img-fluid rounded shadow-sm" alt="infraestrutura" /></div>
+         <div class="col-md-4"><img src="img/estrutural-3.jpg" class="img-fluid rounded shadow-sm" alt="Balão da entrada" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    Criado por <strong>Agis Maciel</strong> 2024 — Projeto Cidade Estrutural - Projeto de extensão do Curso de Técnologo em Sistemas para Internet - TSI - IFB Brasília
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>
