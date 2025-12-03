@@ -10,6 +10,12 @@ body {
   padding-top: 70px; /* compensar navbar fixa */
 }
 
+#sobre p {
+  text-align: justify;
+  /* Opcional: para melhorar a legibilidade do texto justificado */
+  text-justify: inter-word;
+  hyphens: auto;
+}
 /* Hero Section */
 .hero-section {
   height: 60vh;
@@ -42,3 +48,4 @@ footer {
   font-size: 0.9rem;
   letter-spacing: 0.5px;
 }
+
